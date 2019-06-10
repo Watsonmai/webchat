@@ -36,9 +36,9 @@ return [
     ],
     'db'         => [
         'class'    => Database::class,
-        'dsn'      => 'mysql:dbname=webchat;host=112.74.50.162',
+        'dsn'      => 'mysql:dbname=webchat;host=192.168.0.1',
         'username' => 'root',
-        'password' => '86190851',
+        'password' => '12345',
         'config'   => [
             'collation' => 'utf8mb4_general_ci',
             'strict'    => false,
