@@ -237,7 +237,7 @@
             },
             logout() {
                 out().then(res => {
-
+                    this.$router.push('/')
                 }).catch(e => {
                     this.$message.error(e.error)
                 })
